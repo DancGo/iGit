@@ -1,0 +1,107 @@
+{
+  "main": {
+    "id": "4accc71fd1a26eab",
+    "type": "split",
+    "children": [
+      {
+        "id": "505002eea1162b55",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Docker 安装.md",
+            "mode": "source"
+          }
+        },
+        "group": "480458d86e1d0d22"
+      },
+      {
+        "id": "c13a4dee504dfc4e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Docker 安装.md",
+            "mode": "preview"
+          }
+        },
+        "group": "480458d86e1d0d22"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c9fc4e2b81701188",
+    "type": "split",
+    "children": [
+      {
+        "id": "f9947c9c139cde75",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8dbac228111976a8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2ba7e12d81065e59",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "80202064350edf4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "e00666f5c7d6a85f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "822104cffd96fc23",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Docker 安装.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "505002eea1162b55",
+  "lastOpenFiles": [
+    "Docker 安装.md",
+    "未命名.md"
+  ]
+}
