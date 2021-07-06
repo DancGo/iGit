@@ -1,6 +1,7 @@
 文档 https://docs.docker.com/
 镜像  https://hub.docker.com/
 
+```
 卸载 旧版本docker
 sudo yum remove docker \
                   docker-client \
@@ -9,5 +10,6 @@ sudo yum remove docker \
                   docker-latest \
                   docker-latest-logrotate \
                   docker-logrotate \
-                  docker-engine
+                  docker-engine```
 
+```
