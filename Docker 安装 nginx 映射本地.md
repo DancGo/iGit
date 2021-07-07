@@ -13,4 +13,17 @@ sudo docker run -p80:80 --name nginx -d nginx:latest
 ```bash
 sudo docker run -p82:80 --name nginx -d nginx:latest
 ```
-将容器内的配置文件拷贝到/mnt/nginx/conf/ 下
+将容器内的配置文件拷贝到/mnt/data/nginx/conf/ 下
+```bash
+sudo mkdir -p /mydata/nginx/html
+```
+```bash
+sudo mkdir -p /mydata/nginx/logs
+```
+```bash
+sudo mkdir -p /mydata/nginx/conf
+```
+```bash
+cd /mydata/nginx/conf
+```
+sudo docker container cp nginx:/etc/nginx .
