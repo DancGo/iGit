@@ -27,3 +27,8 @@ sudo yum-config-manager \
 ```bash
 sudo yum install docker-ce docker-ce-cli containerd.io
 ```
+
+### 启动
+```bash
+sudo systemctl start docker
+```
