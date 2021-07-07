@@ -42,14 +42,17 @@ sudo systemctl enable docker
 ```bash
 sudo mkdir -p /etc/docker
 ```
+
 ```bash
 sudo tee /etc/docker/daemon.json <<-'EOF' 
 { "registry-mirrors": ["https://a4jld4q9.mirror.aliyuncs.com"] } 
 EOF
 ```
+
 ```bash
 sudo systemctl daemon-reload
 ```
+
 ```bash
 sudo systemctl restart docker
 ```
