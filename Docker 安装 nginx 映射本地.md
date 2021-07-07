@@ -29,4 +29,10 @@ cd /mnt/data/nginx/conf
 ```bash
 sudo docker container cp nginx:/etc/nginx .
 ```
-#由于拷贝完成后会在config中存在一个nginx文件夹，所以需要将它的内容移动到conf中
+#### 由于拷贝完成后会在 config 中存在一个 nginx 文件夹，所以需要将它的内容移动到 conf 中
+```bash
+sudo mv /mydata/nginx/conf/nginx/* /mydata/nginx/conf/
+```
+```bash
+sudo rm -rf /mydata/nginx/conf/nginx
+```
