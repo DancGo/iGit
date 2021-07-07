@@ -61,3 +61,10 @@ sudo docker run -p 80:80 -p 443:443 --name nginx \
 sudo docker update nginx --restart=always
 ```
 
+#### 创建“/mydata/nginx/html/index.html”文件，测试是否能够正常访问
+```bash
+echo '<h2>hello nginx!</h2>' >index.html
+```
+
+#### 访问：http://IP:80/index.html
+
