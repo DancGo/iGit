@@ -31,8 +31,14 @@ sudo docker container cp nginx:/etc/nginx .
 ```
 #### 由于拷贝完成后会在 config 中存在一个 nginx 文件夹，所以需要将它的内容移动到 conf 中
 ```bash
-sudo mv /mydata/nginx/conf/nginx/* /mydata/nginx/conf/
+sudo mv /mnt/data/nginx/conf/nginx/* /mnt/data/nginx/conf/
 ```
 ```bash
-sudo rm -rf /mydata/nginx/conf/nginx
+sudo rm -rf /mnt/data/nginx/conf/nginx
+```
+
+
+#### 终止原容器
+```bash
+sudo docker stop nginx
 ```
