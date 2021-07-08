@@ -8,11 +8,8 @@
         "type": "leaf",
         "dimension": 49.74326059050064,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "LVM 磁盘创建与扩容.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         },
         "group": "255f9e269e84a6d9"
       },
@@ -83,7 +80,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LVM 磁盘创建与扩容.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
