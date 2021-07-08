@@ -1,3 +1,5 @@
+ [[Linux 下安装&配置 java 环境]]
+ 
  ### 标准格式
 ```bash
 sudo java -jar demo.jar --spring.config.location=路径（application.yml）
