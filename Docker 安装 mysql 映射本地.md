@@ -45,10 +45,16 @@ log-error	   #MySQL的错误日志
 ### 通过映射让容器内的配置文件、日志文件、数据文件与本地相对应
 
 ##### 1. 在本地创建对应文件及目录
-docker rm -f 容器ID
+```bash
+sudo docker rm -f 容器ID
+```
 
-mkdir -p /opt/app/mysql
-cd /opt/app/mysql
+```bash
+sudo mkdir -p /opt/app/mysql
+```
+```bash
+sudo cd /opt/app/mysql
+```
 touch my.cnf             #编写配置文件，在下面
 
 mkdir -p /opt/data/mysql
