@@ -63,7 +63,8 @@ sudo vim /etc/fstab
 sudo mount -a
 ```
 <br>
-
+<br>
+<br>
 <br>
 
 ## LVM 分区扩容
