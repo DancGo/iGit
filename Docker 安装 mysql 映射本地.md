@@ -51,16 +51,10 @@ sudo docker rm -f 容器ID
 
 ```bash
 sudo mkdir -p /opt/app/mysql
-```
-```bash
 sudo cd /opt/app/mysql
+sudo touch my.cnf             #编写配置文件,在下面
+sudo mkdir -p /opt/data/mysql
+sudo mkdir -p /opt/logs/mysql
+sudo cd /opt/logs/mysql
+sudo touch error.log
 ```
-touch my.cnf             #编写配置文件，在下面
-
-mkdir -p /opt/data/mysql
-mkdir -p /opt/logs/mysql
-cd /opt/logs/mysql
-touch error.log
-————————————————
-版权声明：本文为CSDN博主「A zz」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/weixin_44033360/article/details/106421533
