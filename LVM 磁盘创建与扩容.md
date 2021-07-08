@@ -35,23 +35,32 @@ sudo vgcreate vg_group /dev/vdb1 /dev/vdc1 /dev/vdd1 /dev/vde1
 
 ##### 创建LV
 ```bash
-sudo lvcreate -l 100%VG  -n vg_1  vg_group```
+sudo lvcreate -l 100%VG  -n vg_1  vg_group
+```
 
 ##### 查看 LV path
+```bash
 sudo lvdisplay
+```
 
 ##### 格式化 LV  path
+```bash
 sudo mkfs.ext4 /dev/vg_group/vg_1
+```
 
 ##### 挂载磁盘
+```bash
 sudo mount /dev/vg_group/vg_1 /lvm_data
+```
 
 ##### 设置自动挂载
+```bash
 sudo vim /etc/fstab
 #添加内容
 /dev/vg_group/vg_1  /lvm_data   ext4    defaults    0   0
 #重新加载挂载
 sudo mount -a
+```
 
 ------------------------------------------------
 ---------------  lvm 磁盘扩容  -----------------
