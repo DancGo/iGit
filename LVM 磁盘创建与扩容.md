@@ -87,11 +87,17 @@ sudo pvcreate /dev/vdf1
 sudo vgextend vg_group /dev/vdf1
 ```
 
-//查看拉伸后的物理卷组大小
-vgs
+##### 查看拉伸后的物理卷组大小
+```bash
+sudo vgs
+```
 
-//拉伸逻辑卷
-lvextend -l 100%VG /dev/vg_group/vg_1
+##### 拉伸逻辑卷
+```bash
+sudo lvextend -l 100%VG /dev/vg_group/vg_1
+```
 
-//拉伸文件系统大小
-resize2fs  /dev/vg_group/vg_1
+##### 拉伸文件系统大小
+```bash
+sudo resize2fs  /dev/vg_group/vg_1
+```
