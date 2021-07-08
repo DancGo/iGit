@@ -7,23 +7,25 @@
         "id": "d31e881fe908c885",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "photo/Pasted image 20210708095812.png"
+            "file": "Linux 下安装&配置 java 环境.md",
+            "mode": "source"
           }
         },
-        "group": "a61a709c860987b6"
+        "group": "255f9e269e84a6d9"
       },
       {
-        "id": "dd0fc1a0b2735856",
+        "id": "44336f6a8b51f376",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "photo/Pasted image 20210708095812.png"
+            "file": "Linux 下安装&配置 java 环境.md",
+            "mode": "preview"
           }
         },
-        "group": "a61a709c860987b6"
+        "group": "255f9e269e84a6d9"
       }
     ],
     "direction": "vertical"
@@ -79,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "photo/Pasted image 20210708095812.png",
+                "file": "Linux 下安装&配置 java 环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,8 +101,8 @@
   },
   "active": "d31e881fe908c885",
   "lastOpenFiles": [
-    "Pasted image 20210708095812.png",
     "Linux 下安装&配置 java 环境.md",
+    "Pasted image 20210708095812.png",
     "未命名.md",
     "Docker 内 nginx 证书配置.md",
     "README.md",
