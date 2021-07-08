@@ -71,15 +71,21 @@ sudo mount -a
 sudo fdisk -l
 ```
 
-//磁盘分区
-fdisk /dev/vdf
+##### 磁盘分区
+```bash
+sudo fdisk /dev/vdf
 #分别输入 n p 1 回车 回车 t L 8e wq 保存退出
+```
 
-//创建PV
-pvcreate /dev/vdf1
+##### 创建PV
+```bash
+sudo pvcreate /dev/vdf1
+```
 
-//将新的物理卷添加/拉伸到物理卷组中
-vgextend vg_group /dev/vdf1
+##### 将新的物理卷添加/拉伸到物理卷组中
+```bash
+sudo vgextend vg_group /dev/vdf1
+```
 
 //查看拉伸后的物理卷组大小
 vgs
