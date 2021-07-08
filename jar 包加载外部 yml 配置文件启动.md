@@ -25,7 +25,7 @@ nohup java -jar vTest.jar  --spring.config.location=/opt/vTest-conf/application.
 
 将所有的调试信息输入到：/opt/vpaas-conf/nohup.out
 
-------------------
+---
 
 SYNC
 nohup java -jar kkswap2-sync.jar --spring.config.location=./application.yml 2>&1 &
