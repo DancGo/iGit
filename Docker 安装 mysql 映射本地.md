@@ -36,10 +36,10 @@ sudo cat /etc/mysql/mysql.conf.d/mysqld.cnf  #查看各个文件的位置
 ![[photo/Pasted image 20210708114442.png]]
 
 ```bash
-pid-file       #设置包含运行的named守护进程的进程id的文件位置。
-socket 		   #MySQL的通讯协议的载体
-datadir		   #MySQL的数据库文件所在目录
-log-error	   #MySQL的错误日志
+pid-file       #设置包含运行的 named 守护进程的进程 id 的文件位置。
+socket 		   #MySQL 的通讯协议的载体
+datadir		   #MySQL 的数据库文件所在目录
+log-error	   #MySQL 的错误日志
 ```
 
 ### 通过映射让容器内的配置文件、日志文件、数据文件与本地相对应
