@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "5728dd6ac9f22df4",
+        "id": "d31e881fe908c885",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -13,10 +13,10 @@
             "mode": "source"
           }
         },
-        "group": "3e313a65327225d5"
+        "group": "a61a709c860987b6"
       },
       {
-        "id": "86ff798f29b09c4a",
+        "id": "dd0fc1a0b2735856",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -25,7 +25,7 @@
             "mode": "preview"
           }
         },
-        "group": "3e313a65327225d5"
+        "group": "a61a709c860987b6"
       }
     ],
     "direction": "vertical"
@@ -99,9 +99,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5728dd6ac9f22df4",
+  "active": "d31e881fe908c885",
   "lastOpenFiles": [
     "Linux 下安装&配置 java 环境.md",
+    "Pasted image 20210708095812.png",
     "未命名.md",
     "Docker 内 nginx 证书配置.md",
     "README.md",
