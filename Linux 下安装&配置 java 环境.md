@@ -41,3 +41,6 @@ export PATH=$PATH:$JAVA_HOME/bin
 java –version
 ```
 ![[photo/Pasted image 20210708100138.png]]
+
+
+★. 123
