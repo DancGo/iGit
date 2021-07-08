@@ -12,6 +12,19 @@ sudo tar -zxv -f jdk-8u291-linux-x64.tar.gz -C /usr/local/
 
 
 #### 然后配置服务器环境变量
+```bash
 export JAVA_HOME=/usr/local/jdk1.8.0_291/
+```
+```bash
 export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+```
+```bash
 export PATH=$PATH:$JAVA_HOME/bin
+```
+
+
+
+#### 编辑环境变量文件
+```bash
+sudo vim /etc/profile
+```
