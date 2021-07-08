@@ -1,2 +1,2 @@
 # 运维资料
-Obsidian
+# 依托 Obsidian 整理

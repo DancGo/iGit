@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "Linux 下安装&配置 java 环境.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "Linux 下安装&配置 java 环境.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Linux 下安装&配置 java 环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,8 +101,8 @@
   },
   "active": "d31e881fe908c885",
   "lastOpenFiles": [
-    "README.md",
     "Linux 下安装&配置 java 环境.md",
+    "README.md",
     "Pasted image 20210708095812.png",
     "未命名.md",
     "Docker 内 nginx 证书配置.md",
