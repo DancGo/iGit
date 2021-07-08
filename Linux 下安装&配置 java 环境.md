@@ -28,3 +28,12 @@ export PATH=$PATH:$JAVA_HOME/bin
 ```bash
 sudo vim /etc/profile
 ```
+ 在文件末尾添加同上内容后保存退出
+```bash
+export JAVA_HOME=/usr/local/jdk1.8.0_291/
+export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export PATH=$PATH:$JAVA_HOME/bin
+```
+
+
+#### 最后验证 java sdk 状态
