@@ -1,3 +1,5 @@
+[[Docker 安装 nginx 映射本地]]
+
 #### docker 容器启动
 ```bash
 sudo docker run -p 80:80 -p 443:443 --restart=always --name nginx -v /mnt/data/nginx/html:/usr/share/nginx/html -v /mnt/data/nginx/logs:/var/log/nginx -v /mnt/data/nginx/conf/:/etc/nginx -d nginx:latest
