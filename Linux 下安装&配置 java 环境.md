@@ -37,3 +37,7 @@ export PATH=$PATH:$JAVA_HOME/bin
 
 
 #### 最后验证 java sdk 状态
+```bash
+java –version
+```
+![[Pasted image 20210708100138.png]]
