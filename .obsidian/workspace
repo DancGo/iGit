@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker 内 nginx 证书配置.md",
+            "file": "Linux 下安装&配置 java 环境.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker 内 nginx 证书配置.md",
+            "file": "Linux 下安装&配置 java 环境.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker 内 nginx 证书配置.md",
+                "file": "Linux 下安装&配置 java 环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,10 +101,10 @@
   },
   "active": "5728dd6ac9f22df4",
   "lastOpenFiles": [
+    "未命名.md",
     "Docker 内 nginx 证书配置.md",
     "README.md",
     "Docker 安装.md",
-    "Docker 安装 nginx 映射本地.md",
-    "未命名.md"
+    "Docker 安装 nginx 映射本地.md"
   ]
 }
