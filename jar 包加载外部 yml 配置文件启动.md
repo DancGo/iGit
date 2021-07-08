@@ -27,8 +27,12 @@ nohup java -jar vTest.jar  --spring.config.location=/opt/vTest-conf/application.
 
 ---
 
-SYNC
+### SYNC
+```bash
 nohup java -jar kkswap2-sync.jar --spring.config.location=./application.yml 2>&1 &
+```
 
-API
+### API
+```bash
 nohup java -jar kkswap2-api.jar --spring.config.location=./application.yml 2>&1 &
+```
