@@ -1,10 +1,12 @@
----
-### lvm 磁盘创建
----
-//查询当前可挂载物理磁盘
-sudo fdisk -l
+## LVM 分区创建
 
-//磁盘分区
+##### 查询当前可挂载物理磁盘
+```bash
+sudo fdisk -l
+```
+
+##### 磁盘分区
+```bash
 sudo fdisk /dev/vdb
 #分别输入 n p 1 回车 回车 t L 8e wq 保存退出
 sudo fdisk /dev/vdc
@@ -13,32 +15,38 @@ sudo fdisk /dev/vdd
 #分别输入 n p 1 回车 回车 t L 8e wq 保存退出
 sudo fdisk /dev/vde
 #分别输入 n p 1 回车 回车 t L 8e wq 保存退出
+```
 
 
-//创建PV
+##### 创建 PV
+```bash
 sudo pvcreate /dev/vdb1
 sudo pvcreate /dev/vdc1
 sudo pvcreate /dev/vdd1
 sudo pvcreate /dev/vde1
+```
 
 
-//创建VG
+##### 创建VG
+```bash
 sudo vgcreate vg_group /dev/vdb1 /dev/vdc1 /dev/vdd1 /dev/vde1
+```
 
 
-//创建LV
-sudo lvcreate -l 100%VG  -n vg_1  vg_group
+##### 创建LV
+```bash
+sudo lvcreate -l 100%VG  -n vg_1  vg_group```
 
-//查看 LV path
+##### 查看 LV path
 sudo lvdisplay
 
-//格式化 LV  path
+##### 格式化 LV  path
 sudo mkfs.ext4 /dev/vg_group/vg_1
 
-//挂载磁盘
+##### 挂载磁盘
 sudo mount /dev/vg_group/vg_1 /lvm_data
 
-//设置自动挂载
+##### 设置自动挂载
 sudo vim /etc/fstab
 #添加内容
 /dev/vg_group/vg_1  /lvm_data   ext4    defaults    0   0
