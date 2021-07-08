@@ -66,8 +66,10 @@ sudo mount -a
 ## LVM 分区扩容
 
 ##### 添加新物理磁盘
-//查询当前可挂载物理磁盘
-fdisk -l
+##### 查询当前可挂载物理磁盘
+```bash
+sudo fdisk -l
+```
 
 //磁盘分区
 fdisk /dev/vdf
