@@ -58,3 +58,11 @@ sudo mkdir -p /opt/logs/mysql
 sudo cd /opt/logs/mysql
 sudo touch error.log
 ```
+
+##### 2. 创建容器
+docker run -d -p 3307:3306 -e MYSQL_ROOT_PASSWORD=123456 -v /opt/app/mysql/my.cnf:/etc/mysql/my.cnf -v /opt/data/mysql:/var/lib/mysql -v /opt/logs/mysql/error.log:/var/log/mysql/error.log --name test_mysql mysql:5.6
+
+## 创建容器成功后查看一下/opt/data/mysql 下是否有文件
+
+docker exec -it test_mysql /bin/bash  #进入容器查看配置文件是否同步
+	cat /etc/mysql/my.cnf
