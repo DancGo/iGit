@@ -34,7 +34,7 @@ sudo cat /etc/mysql/mysql.conf.d/mysqld.cnf  #查看各个文件的位置
 ```
 
 ![[photo/Pasted image 20210708114442.png]]
-![alt test](photo/Pasted image 20210708114442.png)
+![test](photo/photo/Pasted image 20210708114442.png)
 
 ```bash
 pid-file       #设置包含运行的 named 守护进程的进程 id 的文件位置。
