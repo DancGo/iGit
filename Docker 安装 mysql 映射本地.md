@@ -63,6 +63,15 @@ sudo touch error.log
 ```bash
 sudo docker run -d -p 33060:3306 -e MYSQL_ROOT_PASSWORD=123456 -v /opt/app/mysql/my.cnf:/etc/mysql/my.cnf -v /opt/data/mysql:/var/lib/mysql -v /opt/logs/mysql/error.log:/var/log/mysql/error.log --name mysql mysql:5.6
 
+            
+
+sudo docker run -p 33060:3306 --name mysql \
+-v /mnt/date/mysql/logs:/var/log/mysql \
+-v /mydata/mysql/data:/var/lib/mysql \
+-v /mydata/mysql/conf:/etc/mysql \
+-e MYSQL_ROOT_PASSWORD=123456 \
+-d mysql:5.7
+
 ## 创建容器成功后查看一下/opt/data/mysql 下是否有文件
 sudo docker exec -it mysql /bin/bash
 

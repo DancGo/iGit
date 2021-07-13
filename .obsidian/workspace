@@ -6,11 +6,11 @@
       {
         "id": "d31e881fe908c885",
         "type": "leaf",
-        "dimension": 29.653401797175867,
+        "dimension": 42.55455712451862,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker 安装 nginx 映射本地.md",
+            "file": "Docker 安装 mysql 映射本地.md",
             "mode": "source"
           }
         },
@@ -19,11 +19,11 @@
       {
         "id": "44336f6a8b51f376",
         "type": "leaf",
-        "dimension": 70.34659820282413,
+        "dimension": 57.44544287548139,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker 安装 nginx 映射本地.md",
+            "file": "Docker 安装 mysql 映射本地.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker 安装 nginx 映射本地.md",
+                "file": "Docker 安装 mysql 映射本地.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,9 +103,9 @@
   },
   "active": "d31e881fe908c885",
   "lastOpenFiles": [
+    "Docker 安装 mysql 映射本地.md",
     "Docker 安装 nginx 映射本地.md",
     "Docker 内 nginx 证书配置.md",
-    "Docker 安装 mysql 映射本地.md",
     "LVM 磁盘创建与扩容.md",
     "未命名.md",
     "Linux 下安装&配置 java 环境.md",
