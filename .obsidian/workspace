@@ -6,7 +6,6 @@
       {
         "id": "d31e881fe908c885",
         "type": "leaf",
-        "dimension": 42.55455712451861,
         "state": {
           "type": "markdown",
           "state": {
@@ -14,12 +13,11 @@
             "mode": "source"
           }
         },
-        "group": "255f9e269e84a6d9"
+        "group": "5125476bebb214fa"
       },
       {
-        "id": "44336f6a8b51f376",
+        "id": "1a9c8a068dd8e0c0",
         "type": "leaf",
-        "dimension": 57.44544287548138,
         "state": {
           "type": "markdown",
           "state": {
@@ -27,7 +25,7 @@
             "mode": "preview"
           }
         },
-        "group": "255f9e269e84a6d9"
+        "group": "5125476bebb214fa"
       }
     ],
     "direction": "vertical"
@@ -104,6 +102,7 @@
   "active": "d31e881fe908c885",
   "lastOpenFiles": [
     "Docker 安装 mysql 映射本地.md",
+    "photo/Pasted image 20210708114442.png",
     "Docker 安装 nginx 映射本地.md",
     "Docker 内 nginx 证书配置.md",
     "LVM 磁盘创建与扩容.md",
@@ -111,7 +110,6 @@
     "Linux 下安装&配置 java 环境.md",
     "Docker 安装.md",
     "jar 包加载外部 yml 配置文件启动.md",
-    "README.md",
-    "Pasted image 20210708095812.png"
+    "README.md"
   ]
 }
