@@ -74,3 +74,14 @@ sudo docker exec -it mysql /bin/bash
 #进入容器查看配置文件是否同步
 sudo cat /etc/mysql/my.cnf
 ```
+
+##### 时区问题
+```bash
+sudo docker cp /usr/share/zoneinfo/Asia/Shanghai mysql:/etc/localtime
+```
+
+##### 设置开机启动
+```bash
+sudo docker update mysql --restart=always
+```
+
