@@ -84,4 +84,3 @@ sudo docker cp /usr/share/zoneinfo/Asia/Shanghai mysql:/etc/localtime
 ```bash
 sudo docker update mysql --restart=always
 ```
-
