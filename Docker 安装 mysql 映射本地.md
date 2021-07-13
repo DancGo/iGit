@@ -34,6 +34,7 @@ sudo cat /etc/mysql/mysql.conf.d/mysqld.cnf  #查看各个文件的位置
 ```
 
 ![[photo/Pasted image 20210708114442.png]]
+
 ![test](photo/photo/Pasted image 20210708114442.png)
 
 ```bash
