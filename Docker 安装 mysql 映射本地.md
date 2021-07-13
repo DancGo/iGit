@@ -32,10 +32,7 @@ sudo docker exec -it mysql /bin/bash    #进入容器
 ```bash
 sudo cat /etc/mysql/mysql.conf.d/mysqld.cnf  #查看各个文件的位置
 ```
-
 ![[photo/Pasted image 20210708114442.png]]
-
-![test][photo/Pasted_image_20210708114442.png]
 
 ```bash
 pid-file       #设置包含运行的 named 守护进程的进程 id 的文件位置。
