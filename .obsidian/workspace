@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker 安装.md",
+            "file": "Docker 安装 nginx 映射本地.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker 安装.md",
+            "file": "Docker 安装 nginx 映射本地.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker 安装.md",
+                "file": "Docker 安装 nginx 映射本地.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,10 +101,10 @@
   },
   "active": "1a9c8a068dd8e0c0",
   "lastOpenFiles": [
+    "Docker 安装 nginx 映射本地.md",
     "Docker 安装.md",
     "Docker 安装 mysql 映射本地.md",
     "photo/Pasted image 20210708114442.png",
-    "Docker 安装 nginx 映射本地.md",
     "Docker 内 nginx 证书配置.md",
     "LVM 磁盘创建与扩容.md",
     "未命名.md",
