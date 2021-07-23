@@ -2,7 +2,7 @@
 [当前流程为 jdk8]
 https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
 
-![[photo/Pasted image 20210708095812.png]]
+![](photo/Pasted%20image%2020210723085228.png)
 
 
 #### 上传到服务器任意位置，然后解压
@@ -40,4 +40,5 @@ export PATH=$PATH:$JAVA_HOME/bin
 ```bash
 java –version
 ```
-![[photo/Pasted image 20210708100138.png]]
+
+![](photo/Pasted%20image%2020210708100138.png)

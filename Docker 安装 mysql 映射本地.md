@@ -10,7 +10,7 @@ sudo docker pull mysql:5.7
 ```bash
 sudo docker images   #查看一下镜像拉取是否成功
 ```
-![[photo/Pasted image 20210708114010.png]]
+![](photo/Pasted%20image%2020210708114010.png)
 
 ##### 2. 运行容器
 ```bash
