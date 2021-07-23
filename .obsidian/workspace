@@ -4,30 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "d31e881fe908c885",
+        "id": "118b866f15db3d1d",
         "type": "leaf",
-        "dimension": 24.086021505376344,
+        "dimension": 27.125941872981702,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker 安装 nginx 映射本地.md",
+            "file": "Linux 下安装&配置 java 环境.md",
             "mode": "source"
           }
         },
-        "group": "5125476bebb214fa"
+        "group": "8a6fce83554e8820"
       },
       {
-        "id": "1a9c8a068dd8e0c0",
+        "id": "0f3eef08bff73e91",
         "type": "leaf",
-        "dimension": 75.91397849462366,
+        "dimension": 72.8740581270183,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker 安装 nginx 映射本地.md",
+            "file": "Linux 下安装&配置 java 环境.md",
             "mode": "preview"
           }
         },
-        "group": "5125476bebb214fa"
+        "group": "8a6fce83554e8820"
       }
     ],
     "direction": "vertical"
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker 安装 nginx 映射本地.md",
+                "file": "Linux 下安装&配置 java 环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,8 +102,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1a9c8a068dd8e0c0",
+  "active": "118b866f15db3d1d",
   "lastOpenFiles": [
+    "Linux 下安装&配置 java 环境.md",
+    "jar 包加载外部 yml 配置文件启动.md",
     "Docker 安装 nginx 映射本地.md",
     "Docker 内 nginx 证书配置.md",
     "Docker 安装.md",
@@ -111,8 +113,6 @@
     "photo/Pasted image 20210708114442.png",
     "LVM 磁盘创建与扩容.md",
     "未命名.md",
-    "Linux 下安装&配置 java 环境.md",
-    "jar 包加载外部 yml 配置文件启动.md",
     "README.md"
   ]
 }
