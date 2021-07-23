@@ -10,6 +10,7 @@ sudo docker pull mysql:5.7
 ```bash
 sudo docker images   #查看一下镜像拉取是否成功
 ```
+
 ![](photo/Pasted%20image%2020210708114010.png)
 
 ##### 2. 运行容器
@@ -22,7 +23,8 @@ sudo docker ps
 #查看容器是否正常运行，没有的话可以用 docker ps -a 查看是否创建容器
 #然后用 docker logs 容器ID 来查看日志
 ```
-![[photo/Pasted image 20210708114232.png]]
+
+![](photo/Pasted%20image%2020210708114232.png)
 
 ##### 3. 查看各个文件所在的位置
 ```bash
@@ -32,7 +34,8 @@ sudo docker exec -it mysql /bin/bash    #进入容器
 ```bash
 sudo cat /etc/mysql/mysql.conf.d/mysqld.cnf  #查看各个文件的位置
 ```
-![[photo/Pasted image 20210708114442.png]]
+
+![](photo/Pasted%20image%2020210708114442.png)
 
 ```bash
 pid-file       #设置包含运行的 named 守护进程的进程 id 的文件位置。
