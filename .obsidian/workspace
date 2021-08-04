@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker 安装 nginx 映射本地.md",
+            "file": "Linux 下安装&配置 java 环境.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker 安装 nginx 映射本地.md",
+            "file": "Linux 下安装&配置 java 环境.md",
             "mode": "preview"
           }
         },
@@ -67,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 426,
-    "collapsed": true
+    "width": 426
   },
   "right": {
     "id": "b395f47d476286f7",
@@ -84,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker 安装 nginx 映射本地.md",
+                "file": "Linux 下安装&配置 java 环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,11 +101,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "118b866f15db3d1d",
+  "active": "0f3eef08bff73e91",
   "lastOpenFiles": [
+    "Linux 下安装&配置 java 环境.md",
     "Docker 安装 nginx 映射本地.md",
     "LVM 磁盘创建与扩容.md",
-    "Linux 下安装&配置 java 环境.md",
     "jar 包加载外部 yml 配置文件启动.md",
     "Docker 内 nginx 证书配置.md",
     "Docker 安装 mysql 映射本地.md",
