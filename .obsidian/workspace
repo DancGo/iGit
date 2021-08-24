@@ -6,24 +6,21 @@
       {
         "id": "118b866f15db3d1d",
         "type": "leaf",
-        "dimension": 56.98324022346368,
+        "dimension": 50.41899441340782,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Linux 下安装&配置 java 环境.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         },
         "group": "8a6fce83554e8820"
       },
       {
         "id": "0f3eef08bff73e91",
         "type": "leaf",
-        "dimension": 43.01675977653631,
+        "dimension": 49.581005586592184,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux 下安装&配置 java 环境.md",
+            "file": "Docker 内 nginx 证书配置.md",
             "mode": "preview"
           }
         },
@@ -83,7 +80,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux 下安装&配置 java 环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,13 +97,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0f3eef08bff73e91",
+  "active": "118b866f15db3d1d",
   "lastOpenFiles": [
+    "Docker 内 nginx 证书配置.md",
     "Linux 下安装&配置 java 环境.md",
     "Docker 安装 nginx 映射本地.md",
     "LVM 磁盘创建与扩容.md",
     "jar 包加载外部 yml 配置文件启动.md",
-    "Docker 内 nginx 证书配置.md",
     "Docker 安装 mysql 映射本地.md",
     "Docker 安装.md",
     "photo/Pasted image 20210708114442.png",
